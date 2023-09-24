@@ -1,16 +1,18 @@
-import Counter from './components/Counter';
+/* import Counter from './components/Counter';
 import Usuario from './components/Usuario';
 
 import TimerPadre from './components/TimerPadre';
 import ContadorRed from './components/ContadorRed';
 import Formulario from './components/Formulario';
-import Formulario2 from './components/Formulario2';
+import Formulario2 from './components/Formulario2'; */
+
+import Todo from "./todo/Todo"
 
 function App() {
 
   return (
     <>
-      <h1>React + TypeScript</h1>
+      {/* <h1>React + TypeScript</h1>
       <hr/>
 
       <h2>useState</h2>
@@ -38,7 +40,9 @@ function App() {
       <br />
       <br />
       <br />
-      <br />
+      <br /> */}
+
+      <Todo />
     </>
   )
 }
